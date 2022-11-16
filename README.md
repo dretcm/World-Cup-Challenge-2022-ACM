@@ -1,10 +1,80 @@
 # World-Cup-Challenge-2022-ACM
 
-World Cup Challenge - 2022 ACM
+<b>World Cup Challenge - 2022 ACM</b>
 
+<b>Resumen de los modelos usados:</b>
+
+En este script usamos o en si creamos 2 modelos de redes neuronales, uno que predice que equipo ganará y a la vez este modelo alimentará al modelo 2 el cual predice la cantidad de goles de un equipo a otro.
+
+
+<b>Los datos que alimentan al modelo 1 son:</b>
+
+* Neutral: si el partido se realiza en un lugar neutral o la casa de un equipo(1: neutral, 0: en la casa del primer equipo).
+
+* played 1: El número de partidos jugados por el primer equipo.
+
+* played 2: El número de partidos jugados por el segundo equipo.
+
+* win 1: El número de partidos ganados por el primer equipo.
+
+* win 2: El número de partidos ganados por el segundo equipo.
+
+* lose 1: El número de partidos perdidos por el primer equipo.
+
+* lose 2: El número de partidos perdidos por el segundo equipo.
+
+* win_1_vs_2: El número de partidos ganados por el primer equipo contra el segundo equipo.
+
+* lose_1_vs_2: El número de partidos perdidos por el primer equipo contra el segundo equipo.
+
+* total_1_vs_2: El número de partidos jugados por el primer equipo contra el segundo equipo.
+
+* result: El resultado del partido, 1, entonces, gano el primer equipo, 2, entonces, gano el segundo equipo.
+
+* Onehotenconder de todos los paises tanto para el primer equipo como el segundo, en total 632 columnas.
+
+
+<br>
+<b>Data usada para el modelo 2:</b>
+
+* Neutral: si el partido se realiza en un lugar neutral o la casa de un equipo(1: neutral, 0: en la casa del primer equipo).
+
+* played 1: El número de partidos jugados por el primer equipo.
+
+* played 2: El número de partidos jugados por el segundo equipo.
+
+* win 1: El número de partidos ganados por el primer equipo.
+
+* win 2: El número de partidos ganados por el segundo equipo.
+
+* lose 1: El número de partidos perdidos por el primer equipo.
+
+* lose 2: El número de partidos perdidos por el segundo equipo.
+
+* tie 1: El número de partidos empatados por el primer equipo.
+
+* tie 2: El número de partidos empatados por el segundo equipo.
+
+* win_1_vs_2: El número de partidos ganados por el primer equipo contra el segundo equipo.
+
+* lose_1_vs_2: El número de partidos perdidos por el primer equipo contra el segundo equipo.
+
+* tie_1_vs_2: El número de partidos empatados por el primer equipo contra el segundo equipo o viceversa.
+
+* total_1_vs_2: El número de partidos jugados por el primer equipo contra el segundo equipo.
+
+* result en onehotenconder, donde 0(empate, [0,0,0]), 1(gano el equipo 1, [0,1,0]), 2(gano el equipo 2, [0,0,1]), esta respuesta para predecirla al final será data por el modelo 1.
+
+* Onehotenconder de todos los paises tanto para el primer equipo como el segundo, en total 632 columnas.
+
+
+
+<br>
 <b>1. Abrir el archivo "worlds cup 2k22 - predictor.ipynb" y crear una copia o abrirlo con tu cuenta de gmail.</b>
 
+
 <b>2. Activar el GPU o el entorno de ejeucución del colab para que los modelos se entrenen más rapido.</b>
+
 
 <b>3. Subir los archivos excel y json los cuales son la base de datos y un json generado gracias a esa base de datos.</b>
   
