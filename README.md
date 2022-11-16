@@ -261,6 +261,8 @@ Brazil (3-0) Uruguay | Brazil_Uruguay_+3
 Netherlands (4-0) Argentina | Netherlands_Argentina_+4
 Spain (0-2) Brazil | Brazil_Spain_+2
 
+Argentina (2-1) Spain
+
 Fourth in the world cup: Spain
 Third in the world cup: Argentina
 
