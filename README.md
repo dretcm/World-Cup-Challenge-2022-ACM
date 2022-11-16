@@ -59,7 +59,6 @@ Groups = {"Group A": ["Qatar",  "Ecuador", "Senegal" ,"Netherlands"],
           "Group F": ["Belgium",  "Canada",  "Morocco", "Croatia"],
           "Group G": ["Brazil", "Serbia",  "Switzerland",  "Cameroon"],
           "Group H": ["Portugal",  "Ghana", "Uruguay",  "South Korea"]}
-Groups
 ```
 
 ```python
