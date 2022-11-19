@@ -39,6 +39,8 @@ En este script usamos o en si creamos 2 modelos de redes neuronales, uno que pre
 <br>
 <b>Data usada para el modelo 2:</b>
 
+* date: El año en que se realizo o jugo ese partido entre el equipo 1 y 2.
+
 * Neutral: si el partido se realiza en un lugar neutral o la casa de un equipo(1: neutral, 0: en la casa del primer equipo).
 
 * played 1: El número de partidos jugados por el primer equipo.
