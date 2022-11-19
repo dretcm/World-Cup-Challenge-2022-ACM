@@ -135,185 +135,185 @@ Groups = {"Group A": ["Qatar",  "Ecuador", "Senegal" ,"Netherlands"],
 
 ```python
 ======================> Group A
-Qatar (4-1) Ecuador
-Qatar (1-0) Senegal
-Qatar (0-0) Netherlands
-Ecuador (0-1) Senegal
-Ecuador (2-2) Netherlands
+Qatar (1-1) Ecuador
+Qatar (0-2) Senegal
+Qatar (0-5) Netherlands
+Ecuador (1-1) Senegal
+Ecuador (1-2) Netherlands
 Senegal (0-0) Netherlands
 
-Qatar_Ecuador_+3
-Qatar_Senegal_+1
-Netherlands_Qatar_+0
-Senegal_Ecuador_+1
-Netherlands_Ecuador_+0
+Ecuador_Qatar_+0
+Senegal_Qatar_+2
+Netherlands_Qatar_+5
+Senegal_Ecuador_+0
+Netherlands_Ecuador_+1
 Netherlands_Senegal_+0
 
-Qatar {'win': 2.0, 'GF': 5.0, 'DG': 4.0}
-Ecuador {'win': 1.0, 'GF': 4.0, 'DG': -2.0}
-Senegal {'win': 0.0, 'GF': 0.0, 'DG': -2.0}
-Netherlands {'win': 0.0, 'GF': 2.0, 'DG': 0.0}
+Netherlands {'win': 2.0, 'GF': 7.0, 'DG': 6.0}
+Senegal {'win': 1.0, 'GF': 3.0, 'DG': 2.0}
+Ecuador {'win': 0.0, 'GF': 3.0, 'DG': -1.0}
+Qatar {'win': 0.0, 'GF': 1.0, 'DG': -7.0}
 
- ['Qatar', 'Ecuador'] 
+ ['Netherlands', 'Senegal'] 
 
  --------------------------------------------------
 ======================> Group B
-England (0-0) Iran
-England (2-0) United States
-England (2-0) Wales
-Iran (2-1) United States
-Iran (1-1) Wales
+England (1-0) Iran
+England (1-0) United States
+England (3-0) Wales
+Iran (1-1) United States
+Iran (0-1) Wales
 United States (1-0) Wales
 
-Iran_England_+0
-England_United States_+2
-England_Wales_+2
-Iran_United States_+1
-Wales_Iran_+0
+England_Iran_+1
+England_United States_+1
+England_Wales_+3
+United States_Iran_+0
+Wales_Iran_+1
 United States_Wales_+1
 
-England {'win': 2.0, 'GF': 4.0, 'DG': 4.0}
-Iran {'win': 1.0, 'GF': 3.0, 'DG': 1.0}
-United States {'win': 1.0, 'GF': 2.0, 'DG': -2.0}
-Wales {'win': 0.0, 'GF': 1.0, 'DG': -3.0}
+England {'win': 3.0, 'GF': 5.0, 'DG': 5.0}
+United States {'win': 1.0, 'GF': 2.0, 'DG': 0.0}
+Wales {'win': 1.0, 'GF': 1.0, 'DG': -3.0}
+Iran {'win': 0.0, 'GF': 1.0, 'DG': -2.0}
 
- ['England', 'Iran'] 
+ ['England', 'United States'] 
 
  --------------------------------------------------
 ======================> Group C
-Argentina (2-0) Saudi Arabia
-Argentina (2-0) Mexico
-Argentina (2-0) Poland
-Saudi Arabia (0-2) Mexico
-Saudi Arabia (0-1) Poland
-Mexico (1-0) Poland
+Argentina (3-0) Saudi Arabia
+Argentina (4-0) Mexico
+Argentina (4-0) Poland
+Saudi Arabia (1-2) Mexico
+Saudi Arabia (1-4) Poland
+Mexico (0-0) Poland
 
-Argentina_Saudi Arabia_+2
-Argentina_Mexico_+2
-Argentina_Poland_+2
-Mexico_Saudi Arabia_+2
-Poland_Saudi Arabia_+1
-Mexico_Poland_+1
+Argentina_Saudi Arabia_+3
+Argentina_Mexico_+4
+Argentina_Poland_+4
+Mexico_Saudi Arabia_+1
+Poland_Saudi Arabia_+3
+Poland_Mexico_+0
 
-Argentina {'win': 3.0, 'GF': 6.0, 'DG': 6.0}
-Saudi Arabia {'win': 2.0, 'GF': 3.0, 'DG': 1.0}
-Mexico {'win': 1.0, 'GF': 1.0, 'DG': -3.0}
-Poland {'win': 0.0, 'GF': 0.0, 'DG': -4.0}
+Argentina {'win': 3.0, 'GF': 11.0, 'DG': 11.0}
+Poland {'win': 1.0, 'GF': 4.0, 'DG': -1.0}
+Mexico {'win': 1.0, 'GF': 2.0, 'DG': -3.0}
+Saudi Arabia {'win': 0.0, 'GF': 2.0, 'DG': -7.0}
 
- ['Argentina', 'Saudi Arabia'] 
+ ['Argentina', 'Poland'] 
 
  --------------------------------------------------
 ======================> Group D
-France (2-0) Australia
+France (2-1) Australia
 France (0-0) Denmark
-France (4-2) Tunisia
-Australia (1-3) Denmark
-Australia (0-2) Tunisia
-Denmark (2-1) Tunisia
+France (2-1) Tunisia
+Australia (0-4) Denmark
+Australia (0-1) Tunisia
+Denmark (2-0) Tunisia
 
-France_Australia_+2
+France_Australia_+1
 Denmark_France_+0
-France_Tunisia_+2
-Denmark_Australia_+2
-Tunisia_Australia_+2
-Denmark_Tunisia_+1
+France_Tunisia_+1
+Denmark_Australia_+4
+Tunisia_Australia_+1
+Denmark_Tunisia_+2
 
-France {'win': 2.0, 'GF': 6.0, 'DG': 4.0}
-Australia {'win': 2.0, 'GF': 5.0, 'DG': 2.0}
-Denmark {'win': 1.0, 'GF': 3.0, 'DG': -1.0}
-Tunisia {'win': 0.0, 'GF': 3.0, 'DG': -5.0}
+Denmark {'win': 2.0, 'GF': 6.0, 'DG': 6.0}
+France {'win': 2.0, 'GF': 4.0, 'DG': 2.0}
+Tunisia {'win': 1.0, 'GF': 2.0, 'DG': -2.0}
+Australia {'win': 0.0, 'GF': 1.0, 'DG': -6.0}
 
- ['France', 'Australia'] 
+ ['Denmark', 'France'] 
 
  --------------------------------------------------
 ======================> Group E
-Spain (4-2) Costa Rica
+Spain (2-0) Costa Rica
 Spain (1-1) Germany
-Spain (2-1) Japan
-Costa Rica (0-5) Germany
+Spain (4-1) Japan
+Costa Rica (2-3) Germany
 Costa Rica (1-3) Japan
-Germany (4-0) Japan
+Germany (2-2) Japan
 
 Spain_Costa Rica_+2
 Germany_Spain_+0
-Spain_Japan_+1
-Germany_Costa Rica_+5
+Spain_Japan_+3
+Germany_Costa Rica_+1
 Japan_Costa Rica_+2
-Germany_Japan_+4
+Japan_Germany_+0
 
-Spain {'win': 2.0, 'GF': 7.0, 'DG': 3.0}
-Costa Rica {'win': 2.0, 'GF': 10.0, 'DG': 5.0}
-Germany {'win': 1.0, 'GF': 5.0, 'DG': -1.0}
-Japan {'win': 0.0, 'GF': 2.0, 'DG': -7.0}
+Spain {'win': 2.0, 'GF': 7.0, 'DG': 5.0}
+Germany {'win': 1.0, 'GF': 6.0, 'DG': 1.0}
+Japan {'win': 1.0, 'GF': 6.0, 'DG': -1.0}
+Costa Rica {'win': 0.0, 'GF': 3.0, 'DG': -5.0}
 
- ['Costa Rica', 'Spain'] 
+ ['Spain', 'Germany'] 
 
  --------------------------------------------------
 ======================> Group F
 Belgium (2-0) Canada
-Belgium (1-0) Morocco
-Belgium (1-0) Croatia
-Canada (0-2) Morocco
+Belgium (2-0) Morocco
+Belgium (3-1) Croatia
+Canada (1-0) Morocco
 Canada (0-1) Croatia
-Morocco (2-1) Croatia
+Morocco (0-2) Croatia
 
 Belgium_Canada_+2
-Belgium_Morocco_+1
-Belgium_Croatia_+1
-Morocco_Canada_+2
+Belgium_Morocco_+2
+Belgium_Croatia_+2
+Canada_Morocco_+1
 Croatia_Canada_+1
-Morocco_Croatia_+1
+Croatia_Morocco_+2
 
-Belgium {'win': 3.0, 'GF': 4.0, 'DG': 4.0}
-Canada {'win': 2.0, 'GF': 3.0, 'DG': 1.0}
-Morocco {'win': 1.0, 'GF': 2.0, 'DG': -2.0}
-Croatia {'win': 0.0, 'GF': 1.0, 'DG': -3.0}
+Belgium {'win': 3.0, 'GF': 7.0, 'DG': 6.0}
+Croatia {'win': 2.0, 'GF': 4.0, 'DG': 1.0}
+Canada {'win': 1.0, 'GF': 1.0, 'DG': -2.0}
+Morocco {'win': 0.0, 'GF': 0.0, 'DG': -5.0}
 
- ['Belgium', 'Canada'] 
+ ['Belgium', 'Croatia'] 
 
  --------------------------------------------------
 ======================> Group G
-Brazil (1-0) Serbia
+Brazil (2-0) Serbia
 Brazil (1-1) Switzerland
-Brazil (3-0) Cameroon
+Brazil (1-0) Cameroon
 Serbia (1-1) Switzerland
-Serbia (2-0) Cameroon
-Switzerland (3-0) Cameroon
+Serbia (1-0) Cameroon
+Switzerland (2-0) Cameroon
 
-Brazil_Serbia_+1
+Brazil_Serbia_+2
 Switzerland_Brazil_+0
-Brazil_Cameroon_+3
+Brazil_Cameroon_+1
 Switzerland_Serbia_+0
-Serbia_Cameroon_+2
-Switzerland_Cameroon_+3
+Serbia_Cameroon_+1
+Switzerland_Cameroon_+2
 
-Brazil {'win': 2.0, 'GF': 5.0, 'DG': 4.0}
-Serbia {'win': 1.0, 'GF': 3.0, 'DG': 1.0}
-Switzerland {'win': 1.0, 'GF': 5.0, 'DG': 3.0}
-Cameroon {'win': 0.0, 'GF': 0.0, 'DG': -8.0}
+Brazil {'win': 2.0, 'GF': 4.0, 'DG': 3.0}
+Switzerland {'win': 1.0, 'GF': 4.0, 'DG': 2.0}
+Serbia {'win': 1.0, 'GF': 2.0, 'DG': -1.0}
+Cameroon {'win': 0.0, 'GF': 0.0, 'DG': -4.0}
 
  ['Brazil', 'Switzerland'] 
 
  --------------------------------------------------
 ======================> Group H
 Portugal (2-1) Ghana
-Portugal (1-1) Uruguay
-Portugal (0-2) South Korea
-Ghana (0-2) Uruguay
-Ghana (1-0) South Korea
-Uruguay (2-0) South Korea
+Portugal (1-0) Uruguay
+Portugal (2-0) South Korea
+Ghana (0-1) Uruguay
+Ghana (2-0) South Korea
+Uruguay (0-0) South Korea
 
 Portugal_Ghana_+1
-Uruguay_Portugal_+0
-South Korea_Portugal_+2
-Uruguay_Ghana_+2
-Ghana_South Korea_+1
-Uruguay_South Korea_+2
+Portugal_Uruguay_+1
+Portugal_South Korea_+2
+Uruguay_Ghana_+1
+Ghana_South Korea_+2
+South Korea_Uruguay_+0
 
-Portugal {'win': 2.0, 'GF': 5.0, 'DG': 3.0}
-Ghana {'win': 2.0, 'GF': 4.0, 'DG': 2.0}
-Uruguay {'win': 1.0, 'GF': 3.0, 'DG': 0.0}
-South Korea {'win': 0.0, 'GF': 0.0, 'DG': -5.0}
+Portugal {'win': 3.0, 'GF': 5.0, 'DG': 4.0}
+Ghana {'win': 1.0, 'GF': 3.0, 'DG': 0.0}
+Uruguay {'win': 1.0, 'GF': 1.0, 'DG': 0.0}
+South Korea {'win': 0.0, 'GF': 0.0, 'DG': -4.0}
 
  ['Portugal', 'Ghana'] 
 
@@ -324,42 +324,42 @@ South Korea {'win': 0.0, 'GF': 0.0, 'DG': -5.0}
 <h2>Octavos</h2>
 
 ```python
-Qatar (0-2) Iran | Iran_Qatar_+2
-Ecuador (0-1) England | England_Ecuador_+1
-Argentina (2-1) Australia | Argentina_Australia_+1
-Saudi Arabia (0-4) France | France_Saudi Arabia_+4
-Costa Rica (1-0) Canada | Costa Rica_Canada_+1
-Spain (3-1) Belgium | Spain_Belgium_+2
-Brazil (1-0) Ghana | Brazil_Ghana_+1
-Switzerland (2-1) Portugal | Switzerland_Portugal_+1
+Netherlands (2-1) United States | Netherlands_United States_+1
+Argentina (3-4) France | France_Argentina_+1
+Spain (5-3) Croatia | Spain_Croatia_+2
+Brazil (3-0) Ghana | Brazil_Ghana_+3
+Senegal (0-1) England | England_Senegal_+1
+Poland (3-1) Denmark | Poland_Denmark_+2
+Germany (4-0) Belgium | Germany_Belgium_+4
+Switzerland (1-0) Portugal | Switzerland_Portugal_+1
 ```
 
 <h2>Cuartos</h2>
 
 ```python
-Iran (0-2) England | England_Iran_+2
-Argentina (1-0) France | Argentina_France_+1
-Costa Rica (2-4) Spain | Spain_Costa Rica_+2
-Brazil (3-0) Switzerland | Brazil_Switzerland_+3
+Netherlands (0-2) France | France_Netherlands_+2
+Spain (1-0) Brazil | Spain_Brazil_+1
+England (3-1) Poland | England_Poland_+2
+Germany (3-0) Switzerland | Germany_Switzerland_+3
 ```
 
 <h2>Semifinales Y Finales</h2>
 
 ```python
-England (1-2) Argentina | Argentina_England_+1
-Spain (0-2) Brazil | Brazil_Spain_+2
+France (1-0) Spain | France_Spain_+1
+England (0-4) Germany | Germany_England_+4
 
-England (2-1) Spain | England_Spain_+1
+Spain (4-0) England | Spain_England_+4
 
-Fourth in the world cup: Spain
-Third in the world cup: England
+Fourth in the world cup: England
+Third in the world cup: Spain
 
-The Final is between: ['Argentina', 'Brazil']
+The Final is between: ['France', 'Germany']
 
-Argentina (2-1) Brazil | Argentina_Brazil_+1
+France (0-2) Germany | Germany_France_+2
 
-Second in the world cup: Brazil
+Second in the world cup: France
 
-World Cup Winner is:  Argentina
+World Cup Winner is:  Germany
 ```
 
